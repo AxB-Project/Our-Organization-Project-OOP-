@@ -1,0 +1,21 @@
+<h1 class="title">Rate Your Intelligence</h1>
+
+li a.title {
+	text-align: left;
+	background: left;
+	background-color: skyblue;
+	margin-left: 600px;
+	margin-right: 600px;
+	border: 2px solid darkblue;
+  	padding: 10px;
+ 	 border-top-left-radius: 5px;
+ 	 border-bottom-right-radius:5px;
+ 	 border-top-right-radius: 40px;
+ 	 border-bottom-left-radius:40px ;
+ 	 font-style: italic;
+ 	 color: beige;	
+}
+
+
+<li><button><a class="title" href="#" onclick="showmenu()">Rate Your Intelligence</a></li>
+  </button>
