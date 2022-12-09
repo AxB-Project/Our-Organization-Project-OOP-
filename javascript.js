@@ -1,4 +1,5 @@
 
+
 var score=0
 
 
@@ -155,8 +156,6 @@ function sub1 () {
 		
 }
 }
-
-
 document.getElementById('submit1').onclick = function() {
    counter++;
 }
@@ -171,3 +170,5 @@ document.getElementById('submit4').onclick = function() {
 }
 
 */
+
+
