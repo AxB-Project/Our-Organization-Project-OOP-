@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RYI</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript.js"></script>
+	<link rel="stylesheet" type="text/css" href="css.css">	
+	<link rel="icon" type="image/x-icon" href="icon.jpg">
+	
+</head> 
+<body style="background-image: url('back-ground.jpg');background-repeat: no-repeat; background-size: cover;">	
+<p><button id="butt1" onclick="showmenu()">Rate Your Intelligence</button></p>
+<div >
+	<ul class="menu">
+  	<li><a class="home" href="html.html">Home</a></li>
+  	<li><a class="begin" onclick="showQuestions()">begin</a></li>
+  	<li><a class="scoreboard" onclick="showBoard()">Score Board</a></li> 
+</ul>
+</div>
+
+<div class="slidepage">
+	<p>Welcome to test your intelligence. This game allows you to see if your brain is still "functionning".<br>While answering carefully selected questions your score will increment each time your answer is correct.<br><br>The rules are simple: <br>Always answer with a single word all lowercase.<br><br>Let's begin !<br>
+</div>
+<div class="Questions">
+	<div class="quiz-header">
+		<h2>Questions: </h2>
+		<ul class="questionsList">
+			<li><a id="q1" onclick="showq1()">1st Question:</a>
+				<div id="form1" style="display: none;">
+  				<label for="ans">Please type in your answer: </label><br>
+ 				 <input type="text" id="ans" name="ans"><br><br>
+ 				 <input type="submit" id="submit1" onclick="sub1()" onclick="clickCounter()"  value="Submit your Answer">
+					</div>
+			</li>
+			<li>
+				<a id="q2" onclick="showq2()">2nd Question:</a>
+				<div id="form2" style="display: none;">
+  				<label for="ans">Please type in your answer: </label><br>
+ 				 <input type="text" id="ans" name="ans"><br><br>
+ 				 <input type="submit" id="submit2" onclick="sub2()" onclick="clickCounter()" value="Submit your Answer">
+					</div>
+			</li>
+			<li>
+				<a id="q3" onclick="showq3()">3rd Question:</a>
+				<div id="form3" style="display: none;">
+  				<label for="ans">Please type in your answer: </label><br>
+ 				 <input type="text" id="ans" name="ans"><br><br>
+ 				 <input type="submit" id="submit3" onclick="sub3()"  onclick="clickCounter()" value="Submit your Answer">
+					</div>
+			</li>
+			<li>
+				<a id="q4" onclick="showq4()">4th Question:</a>
+				<div id="form4" style="display: none;">
+  				<label for="ans">Please type in your answer: </label><br>
+ 				 <input type="text" id="ans" name="ans"><br><br>
+ 				 <input type="submit" id="submit4" onclick="sub4()"  onclick="clickCounter()" value="Submit your Answer">
+					</div>
+			</li>
+		</ul>
+	</div>
+	<div class="board">
+		<h3>Score Board</h3>
+	</div>
+</div>
+
+
